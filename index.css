@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 60vw;
+  /* gap: 60vw; */
 }
 .clockp {
   /*border: 2px solid black;
@@ -23,6 +23,9 @@
   gap: 1vh;
   background-color: cornsilk;
   border-radius: 10px;
+  margin-left: 460px;
+  top: 40px;
+  position: absolute;
   /*height: 130px;
   width: 500px;
   margin-top: 10px;
@@ -246,7 +249,7 @@
   width: 300px;
   height: 50px;
   position: absolute;
-  margin-left: 1140px;
+  margin-left: 500px;
   top: 70px;
   opacity: 0.71;
   z-index: -1;
@@ -257,7 +260,7 @@
   width: 250px;
   height: 50px;
   position: absolute;
-  margin-left: 1170px;
+  margin-left: 525px;
   top: 80px;
   opacity: 0.22;
   z-index: -2;
